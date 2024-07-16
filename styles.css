@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Sedan+SC);
+@import url(https://fonts.googleapis.com/css?family=Kanit);
+
+body {
+  background-color: #f3eae3;
+}
+.card {
+  height: 450px;
+  width: 600px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 175px;
+  border-radius: 10px;
+  display: flex;
+}
+.item-image {
+  width: 50%;
+  border-radius: 10px 0 0 10px;
+}
+.item-image-small {
+  display: none;
+}
+.content {
+  padding: 35px;
+}
+.item-type {
+   font-size: 10px;
+   letter-spacing: 6px;
+   font-family: 'Raleway', sans-serif;
+   text-transform: uppercase;
+   color: #6b6c7e;
+}
+h1 {
+  font-size: 35px;
+  font-family: 'Merriweather', sans-serif;
+  color: #1f314f;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+p {
+  font-size: 15px;
+  font-family: 'Open Sans', serif;
+  color: #7d889e;
+  margin-top: 25px;
+}
+.prices-box {
+  display: flex;
+  font-size: 45px;
+  font-family: 'Sedan SC', serif;
+  color: #3c7e65;
+}
+.small {
+  font-size: 20px;
+  margin: 18px 0 0 15px;
+  text-decoration-line: line-through;
+  text-decoration-thickness: 1px;
+}
+.button {
+  height: 50px;
+  width: auto;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  margin: 12px 0;
+}
+.btn-text {
+  font-size: 16px;
+  font-family: 'Kanit', serif;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.icon {
+  height: 30px;
+  margin-left: 55px;
+  margin-top: 10px;
+}
+
+@media (max-width:600px) {
+  .card {
+    height: 600px;
+    width: 345px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .item-image {
+    display: none;
+  }
+  .item-image-small {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    display: block;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .content {
+    padding: 20px;
+  }
+}
